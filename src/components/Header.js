@@ -44,28 +44,28 @@ const Header = () => {
                         <div className="header-upper-links d-flex align-items-center justify-content-between">
                             <div>
                                 <a className="d-flex align-items-center gap-10 text-dark" href='#'>
-                                    <img src="images/compare.svg" alt="compare" />
-                                    <p>Compare <br /> Products</p>
+                                    <img src="images/compare.png" alt="compare" />
+                                    <p className='mb-0'>Compare</p>
                                 </a>
                             </div>
                             <div>
                                 <a className="d-flex align-items-center gap-10 text-dark" href='#'>
-                                    <img src="images/wishlist.svg" alt="wishlist" />
-                                    <p>My <br /> Wishlist</p>
+                                    <img className="pb-2" src="images/wishlist.png" alt="wishlist" />
+                                    <p className='mb-0'>Wishlist</p>
                                 </a>
                             </div>
                             <div>
                                 <a className="d-flex align-items-center gap-10 text-dark" href='#'>
-                                    <img src="images/user.svg" alt="user" />
-                                    <p>Log In <br /> My Account</p>
+                                    <img src="images/user.png" alt="user" />
+                                    <p className='mb-0'>Log In</p>
                                 </a>
                             </div>
                             <div>
                                 <a className="d-flex align-items-center gap-10 text-dark" href='#'>
-                                    <img src="images/cart.svg" alt="cart" />
+                                    <img src="images/cart.png" alt="cart" />
                                     <div className='d-flex flex-column gap-10'>
                                         <span className='badge bg-white text-dark'>&#8369; 0</span>
-                                        <p>&#8369; 500</p>
+                                        <p className='mb-0'>&#8369; 500</p>
                                     </div>
                                 </a>
                             </div>

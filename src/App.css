@@ -26,6 +26,10 @@ a{
   border-color: var(--color-FFF1EE);
 }
 
+.gap-5{
+  gap: 5px;
+}
+
 .gap-10{
   gap: 10px;
 }
