@@ -99,6 +99,80 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <section className='home-wrapper-2 py-5'>
+                <div className='container-xxl'>
+                    <div className='row'>
+                        <div className='col-12'>
+                            <div className='categories d-flex justify-content-between flex-wrap align-items-center'>
+                                {/* 1 */}
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Old Navy</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src='images/1.png' alt='categories' />
+                                </div>
+                                {/* 2 */}
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Uniqlo</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src='images/3.png' alt='categories' />
+                                </div>
+                                {/* 3 */}
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Guess</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src='images/5.png' alt='categories' />
+                                </div>
+                                {/* 4 */}
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>H&M</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src='images/2.png' alt='categories' />
+                                </div>
+                                {/* 5 */}
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Zara</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src='images/7.png' alt='categories' />
+                                </div>
+                                {/* 6 */}
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Mango</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src='images/8.png' alt='categories' />
+                                </div>
+                                {/* 7 */}
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Levis</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src='images/4.png' alt='categories' />
+                                </div>
+                                {/* 8 */}
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Puma</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src='images/10.png' alt='categories' />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </>
     );
 };
