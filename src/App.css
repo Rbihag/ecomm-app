@@ -98,6 +98,23 @@ height: 35px;
   color: var(--color-b76e79) !important;
 }
 
-
-
 /* Header End */
+
+
+/* Footer Start */
+
+footer{
+  background: linear-gradient(to right, var(--color-FFDADA), var(--color-FFC1C1), var(--color-FFF1EE));
+}
+
+footer:not(:first-child) {
+  border-top: 1px solid rgba(249, 221, 235, 0.8);
+}
+
+footer .input-group-text{
+  padding: 8px 17px;
+}
+
+
+
+/* Footer End */
