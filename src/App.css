@@ -12,6 +12,10 @@
   --color-b76e79: #b76e79;
   /* --color-215A5B: #FFFFFF; */
   --color-000000: #000000;
+  --color-ff0000: #ff0000;
+  --color-FFFFFF: #bf4800;
+  --color-f5f5f7: #f5f5f7;
+
 }
 
 body{
@@ -41,6 +45,20 @@ a{
 }
 .gap-30{
   gap: 30px;
+}
+
+.button{
+  background-color: var(--color-000000);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 13px 33px;
+  border-radius: 25px;
+}
+
+.button:hover{
+  background: linear-gradient(to right, var(--color-FFDADA), var(--color-FFC1C1), var(--color-FFF1EE));
+  color: black;
 }
 
 /* Header Start */
@@ -115,6 +133,83 @@ footer .input-group-text{
   padding: 8px 17px;
 }
 
-
-
 /* Footer End */
+
+/* Home Page Start */
+
+.main-banner-content {
+  top:15%;
+  left: 5%;
+}
+
+.main-banner-content h4{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #bf4800;
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  
+}
+
+.main-banner-content h5{
+  font-size: 42px;
+  line-height: 54px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.main-banner-content p{
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.4;
+}
+
+/*
+.small-banner-content {
+  top:15%;
+  left: 10%;
+}
+
+.small-banner-content h4{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #bf4800;
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  
+}
+
+.small-banner-content h5{
+  font-size: 42px;
+  line-height: 54px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.small-banner-content p{
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.4;
+} */
+
+.small-banner {
+  width: 49%
+}
+
+/* Home wrapper 2 start*/
+.home-wrapper-2{
+  background-color: var(--color-f5f5f7);
+  
+}
+
+
+
+/* Home wrapper 2 end */
+
+/* Home Page End */
