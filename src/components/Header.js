@@ -43,31 +43,31 @@ const Header = () => {
                     <div className="col-5">
                         <div className="header-upper-links d-flex align-items-center justify-content-between">
                             <div>
-                                <a className="d-flex align-items-center gap-10 text-dark" href='#'>
+                                <NavLink className="d-flex align-items-center gap-10 text-dark" href='#'>
                                     <img src="images/compare.png" alt="compare" />
                                     <p className='mb-0'>Compare</p>
-                                </a>
+                                </NavLink>
                             </div>
                             <div>
-                                <a className="d-flex align-items-center gap-10 text-dark" href='#'>
+                                <NavLink className="d-flex align-items-center gap-10 text-dark" href='#'>
                                     <img className="pb-2" src="images/wishlist.png" alt="wishlist" />
                                     <p className='mb-0'>Wishlist</p>
-                                </a>
+                                </NavLink>
                             </div>
                             <div>
-                                <a className="d-flex align-items-center gap-10 text-dark" href='#'>
+                                <NavLink className="d-flex align-items-center gap-10 text-dark" href='#'>
                                     <img src="images/user.png" alt="user" />
                                     <p className='mb-0'>Log In</p>
-                                </a>
+                                </NavLink>
                             </div>
                             <div>
-                                <a className="d-flex align-items-center gap-10 text-dark" href='#'>
+                                <NavLink className="d-flex align-items-center gap-10 text-dark" href='#'>
                                     <img src="images/cart.png" alt="cart" />
                                     <div className='d-flex flex-column gap-10'>
                                         <span className='badge bg-white text-dark'>&#8369; 0</span>
                                         <p className='mb-0'>&#8369; 500</p>
                                     </div>
-                                </a>
+                                </NavLink>
                             </div>
                         </div>
                     </div>
