@@ -66,7 +66,7 @@ const Home = () => {
                                         <p className="mb-0">For Orders Over &#8369;500</p>
                                     </div>
                                 </div>
-                                <div className='d-flex align-items-center gap-15'>
+                                <div className='d-flex align-items-center gap-15' >
                                     <img src='images/service-02.png' alt='services' />
                                     <div>
                                         <h6>Daily Surprises</h6>
