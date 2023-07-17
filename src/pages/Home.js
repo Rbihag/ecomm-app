@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Marquee from "react-fast-marquee";
 
 const Home = () => {
     return (
@@ -168,6 +169,42 @@ const Home = () => {
                                     </div>
                                     <img src='images/10.png' alt='categories' />
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className='marque-wrapper py-5'>
+                <div className='container-xxl'>
+                    <div className='row'>
+                        <div className='col-12'>
+                            <div className='marquee-inner-wrapper card-wrapper'>
+                                <Marquee className='d-flex'>
+                                    <div className='mx-4 w-25'>
+                                        <img src='/images/brand1.png' alt='brand' />
+                                    </div>
+                                    <div className='mx-4 w-25'>
+                                        <img src='/images/brand2.png' alt='brand' />
+                                    </div>
+                                    <div className='mx-4 w-25'>
+                                        <img src='/images/brand3.png' alt='brand' />
+                                    </div>
+                                    <div className='mx-4 w-25'>
+                                        <img src='/images/brand4.png' alt='brand' />
+                                    </div>
+                                    <div className='mx-4 w-25'>
+                                        <img src='/images/brand5.png' alt='brand' />
+                                    </div>
+                                    <div className='mx-4 w-25'>
+                                        <img src='/images/brand6.png' alt='brand' />
+                                    </div>
+                                    <div className='mx-4 w-25'>
+                                        <img src='/images/brand7.png' alt='brand' />
+                                    </div>
+                                    <div className='mx-4 w-25'>
+                                        <img src='/images/brand1.png' alt='brand' />
+                                    </div>
+                                </Marquee>
                             </div>
                         </div>
                     </div>
