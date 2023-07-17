@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Marquee from "react-fast-marquee";
 import BlogCard from '../components/BlogCard.js';
+import ProductCard from '../components/ProductCard.js';
 
 const Home = () => {
     return (
@@ -210,20 +211,55 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+            </section><section className='blog-wrapper py-5 home-wrapper-2'>
+                <div className='container-xxl'>
+                    <div className='row'>
+                        <div className='col-12'>
+                            <h3 className='section-heading'>Featured Collection</h3>
+                        </div>
+                        <ProductCard />
+                        <ProductCard />
+                        <ProductCard />
+                        <ProductCard />
+                        <ProductCard />
+                        <ProductCard />
+                    </div>
+                </div>
             </section>
             <section className='blog-wrapper py-5 home-wrapper-2'>
                 <div className='container-xxl'>
                     <div className='row'>
                         <div className='col-12'>
-                            <h3 className='section-heading'>Our Latest News </h3>
+                            <h3 className='section-heading'>Our Latest News</h3>
                         </div>
-                        <BlogCard />
-                        <BlogCard />
-                        <BlogCard />
-                        <BlogCard />
+                        <BlogCard
+                            imageUrl='images/blog2.jpg'
+                            date='17 July 2023'
+                            title='Be you find your style and flaunt it'
+                            description='Browse our collection of clothing and get ready to turn heads wherever you go.'
+                        />
+                        <BlogCard
+                            imageUrl='images/blog1.jpg'
+                            date='18 July 2023'
+                            title='Discover the latest fashion trends'
+                            description='Stay up to date with the hottest fashion trends and elevate your style.'
+                        />
+                        <BlogCard
+                            imageUrl='images/blog3.jpg'
+                            date='19 July 2023'
+                            title='Tips for creating the perfect outfit'
+                            description='Learn how to mix and match different pieces to create stylish and cohesive outfits.'
+                        />
+                        <BlogCard
+                            imageUrl='images/blog4.jpg'
+                            date='20 July 2023'
+                            title='Stay comfortable and stylish all day'
+                            description='Explore our collection of comfortable yet fashionable clothing options.'
+                        />
                     </div>
                 </div>
             </section>
+
         </>
     );
 };
