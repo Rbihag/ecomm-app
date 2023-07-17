@@ -6,6 +6,9 @@ const ProductCard = () => {
     return (
         <div className='col-3'>
             <div className='product-card position-relative'>
+                <div className='wishlist-icon position-absolute'>
+                    <Link><img src='images/wish.svg' alt='wishlist' /></Link>
+                </div>
                 <div className='product-image'>
                     <img src='images/watch.jpg' alt='product' />
                 </div>
