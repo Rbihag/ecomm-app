@@ -218,10 +218,34 @@ const Home = () => {
                         <div className='col-12'>
                             <h3 className='section-heading'>Featured Collection</h3>
                         </div>
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
+                        <ProductCard
+                            imageSrc='images/prod6.png'
+                            brand='Zara'
+                            title='Coral Dream'
+                            rating='4'
+                            price='150'
+                        />
+                        <ProductCard
+                            imageSrc='images/prod8.png'
+                            brand='H&M'
+                            title='Sapphire Breeze'
+                            rating='3'
+                            price='200'
+                        />
+                        <ProductCard
+                            imageSrc='images/prod7.png'
+                            brand='Guess'
+                            title='Running Shoes'
+                            rating='5'
+                            price='130'
+                        />
+                        <ProductCard
+                            imageSrc='images/prod5.png'
+                            brand='Mango'
+                            title='Leather Handbag'
+                            rating='4.5'
+                            price='170'
+                        />
                     </div>
                 </div>
             </section>
