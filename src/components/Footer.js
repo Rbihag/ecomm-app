@@ -68,10 +68,10 @@ const Footer = () => {
                             <h4 className='mb-4'>Products</h4>
                             <div className='footer-link d-flex flex-column'>
                                 <NavLink className="text-dark py-2 mb-1">Old Navy</NavLink>
-                                <NavLink className="text-dark py-2 mb-1">Uniqlo</NavLink>
                                 <NavLink className="text-dark py-2 mb-1">Guess</NavLink>
                                 <NavLink className="text-dark py-2 mb-1">H&M</NavLink>
                                 <NavLink className="text-dark py-2 mb-1">Zara</NavLink>
+                                <NavLink className="text-dark py-2 mb-1">Nike</NavLink>
                             </div>
                         </div>
                     </div>

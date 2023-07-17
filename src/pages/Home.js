@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Marquee from "react-fast-marquee";
+import BlogCard from '../components/BlogCard.js';
 
 const Home = () => {
     return (
@@ -116,7 +117,7 @@ const Home = () => {
                                 {/* 2 */}
                                 <div className='d-flex gap-30 align-items-center'>
                                     <div>
-                                        <h6>Uniqlo</h6>
+                                        <h6>Nike</h6>
                                         <p>10 Items</p>
                                     </div>
                                     <img src='images/3.png' alt='categories' />
@@ -184,7 +185,7 @@ const Home = () => {
                                         <img src='/images/brand1.png' alt='brand' />
                                     </div>
                                     <div className='mx-4 w-25'>
-                                        <img src='/images/brand2.png' alt='brand' />
+                                        <img src='/images/brand8.png' alt='brand' />
                                     </div>
                                     <div className='mx-4 w-25'>
                                         <img src='/images/brand3.png' alt='brand' />
@@ -202,11 +203,24 @@ const Home = () => {
                                         <img src='/images/brand7.png' alt='brand' />
                                     </div>
                                     <div className='mx-4 w-25'>
-                                        <img src='/images/brand1.png' alt='brand' />
+                                        <img src='/images/brand2.png' alt='brand' />
                                     </div>
                                 </Marquee>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section className='blog-wrapper py-5 home-wrapper-2'>
+                <div className='container-xxl'>
+                    <div className='row'>
+                        <div className='col-12'>
+                            <h3 className='section-heading'>Our Latest News </h3>
+                        </div>
+                        <BlogCard />
+                        <BlogCard />
+                        <BlogCard />
+                        <BlogCard />
                     </div>
                 </div>
             </section>
