@@ -33,14 +33,14 @@ const Home = () => {
                                 </div>
                                 <div className='small-banner position-relative'>
                                     {/* banner image */}
-                                    <img src='images/catbanner-01.jpg' className='img-fluid rounded-3' alt='small banner' />
+                                    <img src='images/catbanner-03.jpg' className='img-fluid rounded-3' alt='small banner' />
                                     {/* small banner content */}
                                     {/* <div className='small-banner-content position-absolute '>
                                     </div> */}
                                 </div>
                                 <div className='small-banner position-relative'>
                                     {/* banner image */}
-                                    <img src='images/catbanner-02.jpg' className='img-fluid rounded-3' alt='small banner' />
+                                    <img src='images/catbanner-04.jpg' className='img-fluid rounded-3' alt='small banner' />
                                     {/* small banner content */}
                                     {/* <div className='small-banner-content position-absolute '>
                                     </div> */}
@@ -121,7 +121,7 @@ const Home = () => {
                                         <h6>Nike</h6>
                                         <p>10 Items</p>
                                     </div>
-                                    <img src='images/3.png' alt='categories' />
+                                    <img src='images/15.png' alt='categories' />
                                 </div>
                                 {/* 3 */}
                                 <div className='d-flex gap-30 align-items-center'>
@@ -129,7 +129,7 @@ const Home = () => {
                                         <h6>Guess</h6>
                                         <p>10 Items</p>
                                     </div>
-                                    <img src='images/5.png' alt='categories' />
+                                    <img src='images/12.png' alt='categories' />
                                 </div>
                                 {/* 4 */}
                                 <div className='d-flex gap-30 align-items-center'>
@@ -145,7 +145,7 @@ const Home = () => {
                                         <h6>Zara</h6>
                                         <p>10 Items</p>
                                     </div>
-                                    <img src='images/7.png' alt='categories' />
+                                    <img src='images/13.png' alt='categories' />
                                 </div>
                                 {/* 6 */}
                                 <div className='d-flex gap-30 align-items-center'>
@@ -161,7 +161,7 @@ const Home = () => {
                                         <h6>Levis</h6>
                                         <p>10 Items</p>
                                     </div>
-                                    <img src='images/4.png' alt='categories' />
+                                    <img src='images/16.png' alt='categories' />
                                 </div>
                                 {/* 8 */}
                                 <div className='d-flex gap-30 align-items-center'>
@@ -169,7 +169,7 @@ const Home = () => {
                                         <h6>Puma</h6>
                                         <p>10 Items</p>
                                     </div>
-                                    <img src='images/10.png' alt='categories' />
+                                    <img src='images/14.png' alt='categories' />
                                 </div>
                             </div>
                         </div>
@@ -217,8 +217,6 @@ const Home = () => {
                         <div className='col-12'>
                             <h3 className='section-heading'>Featured Collection</h3>
                         </div>
-                        <ProductCard />
-                        <ProductCard />
                         <ProductCard />
                         <ProductCard />
                         <ProductCard />
