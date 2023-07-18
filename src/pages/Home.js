@@ -273,8 +273,49 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
-
+            <section className='popular-wrapper py-5 home-wrapper-2'>
+                <div className='container-xxl'>
+                    <div className='row'>
+                        <div className='col-12'>
+                            <h3 className='section-heading'>Our Popular Products</h3>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <ProductCard
+                            imageSrc='images/pop1.png'
+                            hoverImageSrc='images/pop2.png'
+                            brand='Mango'
+                            title='Fil Coupe'
+                            rating='4'
+                            price='130'
+                        />
+                        <ProductCard
+                            imageSrc='images/pop5.png'
+                            hoverImageSrc='images/pop6.png'
+                            brand='Guess'
+                            title='Monogram'
+                            rating='3'
+                            price='160'
+                        />
+                        <ProductCard
+                            imageSrc='images/pop7.png'
+                            hoverImageSrc='images/pop8.png'
+                            brand='Old Navy'
+                            title='Pen Mesh'
+                            rating='5'
+                            price='150'
+                        />
+                        <ProductCard
+                            imageSrc='images/pop3.png'
+                            hoverImageSrc='images/pop4.png'
+                            brand='Levis'
+                            title='Leather Trim'
+                            rating='4.5'
+                            price='190'
+                        />
+                    </div>
+                </div>
+            </section>
             <section className='marque-wrapper py-5'>
                 <div className='container-xxl'>
                     <div className='row'>
