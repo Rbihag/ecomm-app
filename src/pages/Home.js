@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Marquee from "react-fast-marquee";
 import BlogCard from '../components/BlogCard.js';
 import ProductCard from '../components/ProductCard.js';
+import SpecialProduct from '../components/SpecialProduct.js';
 
 const Home = () => {
     return (
@@ -202,7 +203,7 @@ const Home = () => {
                             imageSrc='images/prod7.png'
                             hoverImageSrc='images/prod7-1.png'
                             brand='Guess'
-                            title='Running Shoes'
+                            title='Enchanting Emerald'
                             rating='5'
                             price='130'
                         />
@@ -210,10 +211,25 @@ const Home = () => {
                             imageSrc='images/prod5.png'
                             hoverImageSrc='images/prod5-1.png'
                             brand='Mango'
-                            title='Leather Handbag'
+                            title='Sunshine Bliss'
                             rating='4.5'
                             price='170'
                         />
+                    </div>
+                </div>
+            </section>
+            <section className='special-wrapper py-5 home-wrapper-2'>
+                <div className='container-xxl'>
+                    <div className='row'>
+                        <div className='col-12'>
+                            <h3 className='section-heading'>Special Products</h3>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <SpecialProduct />
+                        <SpecialProduct />
+                        <SpecialProduct />
+                        <SpecialProduct />
                     </div>
                 </div>
             </section>
@@ -286,7 +302,6 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
         </>
     );
 };
