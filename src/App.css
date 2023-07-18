@@ -319,6 +319,7 @@ footer .input-group-text{
 
 .product-image img:hover {
   display: block;
+  border-radius: 10px;
   transform: scale(1.05); /* Slightly scale up the image on hover */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow */
 }
@@ -359,6 +360,18 @@ footer .input-group-text{
   border-radius: 10px;
   background-color: white;
 }
+
+.special-product-card img {
+  transition: all 0.8s ease;
+}
+
+.special-product-card img:hover {
+  display: block;
+  border-radius: 10px;
+  transform: scale(1.01); /* Slightly scale up the image on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow */
+}
+
 
 
 /* special product end */

@@ -226,13 +226,55 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='row'>
-                        <SpecialProduct />
-                        <SpecialProduct />
-                        <SpecialProduct />
-                        <SpecialProduct />
+                        <SpecialProduct
+                            imageSrc='images/sp1.png'
+                            hoverImageSrc1='images/sp12.png'
+                            brand='Louis Vuitton'
+                            title='Silk Elegance'
+                            rating={5}
+                            price={800}
+                            discountDays={5}
+                            progress={65}
+                            productCount={5}
+                        />
+                        <SpecialProduct
+                            imageSrc='images/sp2.png'
+                            hoverImageSrc1='images/sp21.png'
+                            brand='Gucci'
+                            title='Tweed Verve'
+                            rating={4.5}
+                            price={1200}
+                            discountDays={3}
+                            progress={80}
+                            productCount={8}
+                        />
+                        <SpecialProduct
+                            imageSrc='images/sp3.png'
+                            hoverImageSrc1='images/sp31.png'
+                            brand='Chanel'
+                            title='Luxury Chic'
+                            rating={4}
+                            price={950}
+                            discountDays={7}
+                            progress={50}
+                            productCount={3}
+                        />
+                        <SpecialProduct
+                            imageSrc='images/sp5.png'
+                            hoverImageSrc1='images/sp51.png'
+                            brand='Prada'
+                            title='Classic Glamour'
+                            rating={4.5}
+                            price={1500}
+                            discountDays={2}
+                            progress={90}
+                            productCount={10}
+                        />
                     </div>
                 </div>
             </section>
+
+
             <section className='marque-wrapper py-5'>
                 <div className='container-xxl'>
                     <div className='row'>
