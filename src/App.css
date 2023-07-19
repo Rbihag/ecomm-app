@@ -351,6 +351,34 @@ footer .input-group-text{
   transition: 0.3s;
 }
 
+.action-bar a img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.action-bar a:hover img {
+  transform: scale(1.5);
+}
+
+.section-heading {
+  position: relative;
+}
+
+.section-heading::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease-in-out;
+}
+
+.section-heading:hover::after {
+  width: 100%;
+}
+
 /* product card end */
 
 /* special product start */
@@ -372,6 +400,49 @@ footer .input-group-text{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow */
 }
 
-
-
 /* special product end */
+
+/* famous product start */
+
+.famous-card .famous-content{
+  top: 18%;
+  left: 4%;;
+}
+
+.famous-content h5{
+color: #ededed;
+font-size: 13px;
+line-height: 20px;
+font-weight: 400;
+margin-bottom: 7px;
+}
+
+.famous-card img{
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.famous-card {
+  position: relative;
+  transition: transform 0.5s ease-in-out;
+}
+
+.famous-card:hover {
+  transform: translateY(-10px);
+}
+
+.famous-content h6{
+  color: #ededed;
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 500;
+}
+
+.famous-content p{
+  color: #ededed;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+/* famous product end */

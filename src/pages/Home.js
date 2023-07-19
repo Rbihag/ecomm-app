@@ -185,7 +185,7 @@ const Home = () => {
                         </div>
                         <ProductCard
                             imageSrc='images/prod6.png'
-                            hoverImageSrc='images/prod6-1.png'
+                            hoverImageSrc='images/prod6.png'
                             brand='Zara'
                             title='Coral Dream'
                             rating='4'
@@ -193,7 +193,7 @@ const Home = () => {
                         />
                         <ProductCard
                             imageSrc='images/prod8.png'
-                            hoverImageSrc='images/prod8-1.png'
+                            hoverImageSrc='images/prod8.png'
                             brand='H&M'
                             title='Sapphire Breeze'
                             rating='3'
@@ -201,7 +201,7 @@ const Home = () => {
                         />
                         <ProductCard
                             imageSrc='images/prod7.png'
-                            hoverImageSrc='images/prod7-1.png'
+                            hoverImageSrc='images/prod7.png'
                             brand='Guess'
                             title='Enchanting Emerald'
                             rating='5'
@@ -209,12 +209,28 @@ const Home = () => {
                         />
                         <ProductCard
                             imageSrc='images/prod5.png'
-                            hoverImageSrc='images/prod5-1.png'
+                            hoverImageSrc='images/prod5.png'
                             brand='Mango'
                             title='Sunshine Bliss'
                             rating='4.5'
                             price='170'
                         />
+                    </div>
+                </div>
+            </section>
+            <section className='famous-wrapper py-5 home-wrapper-2'>
+                <div className='container-xxl'>
+                    <div className='row'>
+                        <div className='col-3'>
+                            <div className='famous-card position-relative'>
+                                <img src='images/f1.png' alt='famous' />
+                                <div className='famous-content position-absolute'>
+                                    <h5>Handbag</h5>
+                                    <h6>Alma BB</h6>
+                                    <p>&#8369;2,370 or &#8369;200/mo. <br />  for 12 mos.* </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
