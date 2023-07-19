@@ -409,14 +409,6 @@ footer .input-group-text{
   left: 4%;;
 }
 
-.famous-content h5{
-color: #ededed;
-font-size: 13px;
-line-height: 20px;
-font-weight: 400;
-margin-bottom: 7px;
-}
-
 .famous-card img{
   border-radius: 10px;
   margin-top: 50px;
@@ -430,6 +422,15 @@ margin-bottom: 7px;
 .famous-card:hover {
   transform: translateY(-10px);
 }
+
+.famous-content h5{
+  color: #ededed;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+  }
 
 .famous-content h6{
   color: #ededed;

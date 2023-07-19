@@ -8,7 +8,7 @@ import SpecialProduct from '../components/SpecialProduct.js';
 const Home = () => {
     return (
         <>
-            <section className='hone-wrapper-1 py-5'>
+            <section className='home-wrapper-1 py-5'>
                 <div className='container-xxl' >
                     <div className='row'>
                         <div className='col-6'>
@@ -223,11 +223,38 @@ const Home = () => {
                     <div className='row'>
                         <div className='col-3'>
                             <div className='famous-card position-relative'>
-                                <img src='images/f1.png' alt='famous' />
+                                <img src='images/f1.png' className='img-fluid' alt='famous' />
                                 <div className='famous-content position-absolute'>
                                     <h5>Handbag</h5>
                                     <h6>Alma BB</h6>
                                     <p>&#8369;2,370 or &#8369;200/mo. <br />  for 12 mos.* </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-3'>
+                            <div className='famous-card position-relative'>
+                                <img src='images/f2.png' className='img-fluid' alt='famous' />
+                                <div className='famous-content position-absolute'>
+                                    <h5 className='text-dark'>Handbag</h5>
+                                    <h6 className='text-dark'>Neverfull</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-3'>
+                            <div className='famous-card position-relative'>
+                                <img src='images/f3.png' className='img-fluid' alt='famous' />
+                                <div className='famous-content position-absolute'>
+                                    <h5 className='text-dark'>Handbag</h5>
+                                    <h6 className='text-dark'>Cluny</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-3'>
+                            <div className='famous-card position-relative'>
+                                <img src='images/f4.png' className='img-fluid' alt='famous' />
+                                <div className='famous-content position-absolute'>
+                                    <h5 className='text-dark'>Handbag</h5>
+                                    <h6 className='text-dark'>Summer</h6>
                                 </div>
                             </div>
                         </div>
