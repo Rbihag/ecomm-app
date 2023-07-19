@@ -8,21 +8,52 @@ import SpecialProduct from '../components/SpecialProduct.js';
 const Home = () => {
     return (
         <>
+            {/* TO DO MAIN BANNER IMAGES LINE 32,40 */}
             <section className='home-wrapper-1 py-5'>
                 <div className='container-xxl' >
                     <div className='row'>
                         <div className='col-6'>
-                            <div className='main-banner position-relative'>
-                                {/* banner image */}
-                                <img src='images/mainbanner.jpg' className='img-fluid rounded-3' alt='mainbanner' />
-                                <div className='main-banner-content position-absolute '>
-                                    <h4>Make Everyday <br />A Runway Show</h4>
-                                    <h5>Glitz and Glam</h5>
-                                    <p>Add some sparkle to your <br />look with this dazzling dress</p>
-                                    <Link className='button'>BUY NOW</Link>
+                            <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
+                                <div className="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div>
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active" data-bs-interval="10000">
+                                        <img src="images/mainbanner.jpg" className="d-block w-100 img-fluid" alt="..." />
+                                        <div className="carousel-caption d-none d-md-block">
+                                            <Link className='button'>BUY NOW</Link>
+                                        </div>
+                                    </div>
+                                    <div className="carousel-item" data-bs-interval="2000">
+                                        <img src="images/catbanner-01.jpg" className="d-block w-100 img-fluid" alt="..." />
+                                        <div className="carousel-caption d-none d-md-block">
+                                            {/* INSERT HERE */}
+                                            <h5>TO DO</h5>
+                                            <p>TO DO</p>
+                                        </div>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img src="images/catbanner-03.jpg" className="d-block w-100 img-fluid" alt="..." />
+                                        <div className="carousel-caption d-none d-md-block">
+                                            {/* INSERT HERE */}
+                                            <h5>TO DO</h5>
+                                            <p>TO DO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span className="visually-hidden">Previous</span>
+                                </button>
+                                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span className="visually-hidden">Next</span>
+                                </button>
                             </div>
                         </div>
+
                         <div className='col-6'>
                             <div className='d-flex flex-wrap gap-10 justify-content-between align-items-center'>
                                 <div className='small-banner position-relative'>
