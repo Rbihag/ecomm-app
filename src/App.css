@@ -449,3 +449,77 @@ footer .input-group-text{
 }
 
 /* famous product end */
+
+/*  View Shop start*/
+
+.filter-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.filter-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 20px;
+}
+
+.filter-card ul,
+.filter-card .form-toggle-label {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: #777777;
+  cursor: pointer;
+}
+
+.filter-card .form-toggle-input {
+  display: none;
+}
+
+.form-toggle {
+  display: flex;
+  align-items: center;
+}
+
+.form-toggle-label {
+  cursor: pointer;
+  padding: 5px 15px;
+  margin: 5px;
+  background-color: #e4e4e4;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.form-toggle-input:checked + .form-toggle-label {
+  background-color: var(--color-FFC1C1);
+  border-color: var(--color-FFC1C1);
+}
+
+.sub-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 15px;
+}
+
+.form-toggle-label:before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.form-toggle-input:checked + .form-toggle-label:before {
+  transform: translateX(20px);
+}
+
+
+/*  View Shop end*/
