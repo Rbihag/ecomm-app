@@ -503,6 +503,7 @@ footer .input-group-text{
   font-weight: 600;
   color: var(--color-1c1c1b);
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .form-toggle-label:before {

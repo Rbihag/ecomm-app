@@ -27,7 +27,7 @@ const ProductCard = ({ imageSrc, hoverImageSrc, brand, title, rating, price }) =
                 <div className='product-details'>
                     <h6 className='brand'>{brand}</h6>
                     <h5 className='product-title'>{title}</h5>
-                    <ReactStars count={5} size={24} value={rating} edit={false} activeColor='#ffd700' />
+                    <ReactStars count={5} size={24} value={5} edit={false} activeColor='#ffd700' />
                     <p className='price'>&#8369; {price}</p>
                 </div>
                 <div className='action-bar position-absolute'>

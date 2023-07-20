@@ -25,29 +25,32 @@ function ViewShop() {
                             <h3 className='filter-title'>Filter By</h3>
                             <div>
                                 <h5 className='sub-title'>Availability</h5>
-                                <div className='form-toggle'>
-                                    <input
-                                        className='form-toggle-input'
-                                        type='checkbox'
-                                        id='inStockToggle'
-                                    />
-                                    <label className='form-toggle-label' htmlFor='inStockToggle'>
-                                        In Stock (3)
-                                    </label>
+                                <div>
+                                    <div className='form-toggle'>
+                                        <input
+                                            className='form-toggle-input'
+                                            type='checkbox'
+                                            id='inStockToggle'
+                                        />
+                                        <label className='form-toggle-label' htmlFor='inStockToggle'>
+                                            In Stock (3)
+                                        </label>
+                                    </div>
+                                    <div className='form-toggle'>
+                                        <input
+                                            className='form-toggle-input'
+                                            type='checkbox'
+                                            id='outOfStockToggle'
+                                        />
+                                        <label
+                                            className='form-toggle-label'
+                                            htmlFor='outOfStockToggle'
+                                        >
+                                            Out of Stock (0)
+                                        </label>
+                                    </div>
                                 </div>
-                                <div className='form-toggle'>
-                                    <input
-                                        className='form-toggle-input'
-                                        type='checkbox'
-                                        id='outOfStockToggle'
-                                    />
-                                    <label
-                                        className='form-toggle-label'
-                                        htmlFor='outOfStockToggle'
-                                    >
-                                        Out of Stock (0)
-                                    </label>
-                                </div>
+                                <h5 className='sub-title'>Availability</h5>
                             </div>
                         </div>
                         <div className='filter-card mb-3'>
