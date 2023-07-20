@@ -1,6 +1,7 @@
 import React from 'react';
 import BreadCrumb from '../components/BreadCrumb.js';
 import Meta from '../components/Meta.js';
+import ReactStars from 'react-rating-stars-component';
 
 function ViewShop() {
     return (
@@ -115,6 +116,28 @@ function ViewShop() {
                         </div>
                         <div className='filter-card mb-3'>
                             <h3 className='filter-title'>Surprise Product</h3>
+                            <div>
+                                <div className='surprise-products d-flex'>
+                                    <div className='w-50'>
+                                        <img src='images/prod5.png' className='img-fluid' alt='dress' />
+                                    </div>
+                                    <div className='w-50'>
+                                        <h5>Sunshine Bliss</h5>
+                                        <ReactStars count={5} size={24} value={5} edit={false} activeColor='#ffd700' />
+                                        <b>&#8369; 170</b>
+                                    </div>
+                                </div>
+                                <div className='surprise-products d-flex'>
+                                    <div className='w-50'>
+                                        <img src='images/pop7.png' className='img-fluid' alt='shorts' />
+                                    </div>
+                                    <div className='w-50'>
+                                        <h5>Pen Mesh</h5>
+                                        <ReactStars count={5} size={24} value={5} edit={false} activeColor='#ffd700' />
+                                        <b>&#8369; 150</b>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className='col-9'></div>

@@ -592,4 +592,13 @@ footer .input-group-text{
   background-color: crimson; /* Color for the fifth li */
 }
 
+.surprise-products h5 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.surprise-products:first-child {
+  border-bottom: 1px solid var(--color-ededed);
+}
+
 /*  View Shop end*/
