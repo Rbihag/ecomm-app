@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactStars from 'react-rating-stars-component';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const ProductCard = ({ imageSrc, hoverImageSrc, brand, title, rating, price }) => {
     const [hovered, setHovered] = useState(false);
@@ -12,6 +12,9 @@ const ProductCard = ({ imageSrc, hoverImageSrc, brand, title, rating, price }) =
     const handleMouseLeave = () => {
         setHovered(false);
     };
+
+    let location = useLocation();
+    console.log(location)
 
     return (
         <div className='col-3'>
