@@ -50,11 +50,68 @@ function ViewShop() {
                                         </label>
                                     </div>
                                 </div>
-                                <h5 className='sub-title'>Availability</h5>
+                                <h5 className='sub-title1'>Price</h5>
+                                <div className='d-flex align-items-center gap-10'>
+                                    <div className="form-floating mb-3">
+                                        <input type="email" className="form-control" id="floatingInput" placeholder="From" />
+                                        <label htmlFor="floatingInput">From</label>
+                                    </div>
+                                    <div className="form-floating mb-3">
+                                        <input type="email" className="form-control" id="floatingInput1" placeholder="To" />
+                                        <label htmlFor="floatingInput1">To</label>
+                                    </div>
+                                </div>
+                                <h5 className='sub-title1'>Colors</h5>
+                                <div>
+                                    <div>
+                                        <ul className='colors ps-0'>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h5 className='sub-title1'>Size</h5>
+                                <div>
+                                    <div className='form-check'>
+                                        <input className='form-check-input' type='checkbox' value="" id="color-1" />
+                                        <label className='form-check-label' htmlFor='color-1'>
+                                            Small (2)
+                                        </label>
+                                    </div>
+                                    <div className='form-check'>
+                                        <input className='form-check-input' type='checkbox' value="" id="color-2" />
+                                        <label className='form-check-label' htmlFor='color-2'>
+                                            Medium (4)
+                                        </label>
+                                    </div>
+                                    <div className='form-check'>
+                                        <input className='form-check-input' type='checkbox' value="" id="color-3" />
+                                        <label className='form-check-label' htmlFor='color-3'>
+                                            Large (1)
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className='filter-card mb-3'>
                             <h3 className='filter-title'>Product Tags</h3>
+                            <div>
+                                <div className='product-tags d-flex flex-wrap aling-items-center gap-10'>
+                                    <span className='badge bg-secondary rounded-3 py-2 px-3'>MANGO</span>
+                                    <span className='badge bg-secondary rounded-3 py-2 px-3'>Zara</span>
+                                    <span className='badge bg-secondary rounded-3 py-2 px-3'>GUESS</span>
+                                    <span className='badge bg-secondary rounded-3 py-2 px-3'>H&M</span>
+                                    <span className='badge bg-secondary rounded-3 py-2 px-3'>LEVIS</span>
+                                </div>
+                            </div>
                         </div>
                         <div className='filter-card mb-3'>
                             <h3 className='filter-title'>Surprise Product</h3>

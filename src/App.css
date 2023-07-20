@@ -475,6 +475,16 @@ footer .input-group-text{
   cursor: pointer;
 }
 
+.filter-card .form-check-input:focus{
+  box-shadow: none;
+  border-color:var(--color-FFC1C1);
+}
+
+.filter-card .form-check-input:checked{
+  background-color: var(--color-FFC1C1);
+  border-color:var(--color-FFC1C1);
+}
+
 .filter-card .form-toggle-input {
   display: none;
 }
@@ -496,6 +506,13 @@ footer .input-group-text{
 .form-toggle-input:checked + .form-toggle-label {
   background-color: var(--color-FFC1C1);
   border-color: var(--color-FFC1C1);
+}
+
+.sub-title1 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 15px;
 }
 
 .sub-title {
@@ -522,5 +539,57 @@ footer .input-group-text{
   transform: translateX(20px);
 }
 
+.colors{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.colors li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.colors li:nth-child(1) {
+  background-color: red; /* Color for the first li */
+}
+
+.colors li:nth-child(2) {
+  background-color: blue; /* Color for the second li */
+}
+
+.colors li:nth-child(3) {
+  background-color: green; /* Color for the third li */
+}
+
+.colors li:nth-child(4) {
+  background-color: yellow; /* Color for the fourth li */
+}
+
+.colors li:nth-child(5) {
+  background-color: black; /* Color for the fifth li */
+}
+
+.colors li:nth-child(6) {
+  background-color: limegreen; /* Color for the fifth li */
+}
+
+.colors li:nth-child(7) {
+  background-color: indigo; /* Color for the fifth li */
+}
+
+.colors li:nth-child(8) {
+  background-color: magenta; /* Color for the fifth li */
+}
+
+.colors li:nth-child(9) {
+  background-color: turquoise; /* Color for the fifth li */
+}
+
+.colors li:nth-child(10) {
+  background-color: crimson; /* Color for the fifth li */
+}
 
 /*  View Shop end*/
