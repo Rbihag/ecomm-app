@@ -62,6 +62,14 @@ a{
   gap: 30px;
 }
 
+.gap-40{
+  gap: 40px;
+}
+
+.gap-50{
+  gap: 50px;
+}
+
 .button{
   background-color: var(--color-000000);
   color: white;
@@ -612,6 +620,10 @@ padding: 8px;
 border-radius: 3px;
 box-shadow: none;
 }
+
+
+
+
 
 
 /*  View Shop end*/
