@@ -455,7 +455,7 @@ footer .input-group-text{
 .filter-card {
   background-color: white;
   border-radius: 10px;
-  padding: 15px 15px 25px;
+  padding: 31px 10px 30px;
 }
 
 .filter-title {
@@ -588,10 +588,6 @@ footer .input-group-text{
   background-color: turquoise; /* Color for the fifth li */
 }
 
-.colors li:nth-child(10) {
-  background-color: crimson; /* Color for the fifth li */
-}
-
 .surprise-products h5 {
   font-size: 14px;
   margin-bottom: 8px;
@@ -605,6 +601,7 @@ footer .input-group-text{
   padding: 10px;
   border-radius: 10px;
   background-color: white;
+  width: 944px;
 }
 
 .grid img{
@@ -613,6 +610,8 @@ height: 35px;
 background-color: #f2f2f2;
 padding: 8px;
 border-radius: 3px;
+box-shadow: none;
 }
+
 
 /*  View Shop end*/

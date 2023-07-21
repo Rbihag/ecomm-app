@@ -5,9 +5,9 @@ import ReactStars from 'react-rating-stars-component';
 import ProductCard from '../components/ProductCard.js';
 
 
-function ViewShop() {
+const ViewShop = () => {
     const [grid, setGrid] = useState(4);
-    alert(grid);
+    // console.log('Grid:', grid);
     return (
         <>
             <Meta title={'View Shop'} />
@@ -161,47 +161,88 @@ function ViewShop() {
                                             <option value='created-descending'>Date, new-Old</option>
                                         </select>
                                     </div>
-                                    <div className='d-flex align-items-center gap-10'>
-                                        <p className='totalproducts mb-0'>15 Products</p>
-                                        <div className='d-flex gap-10 align-items-center grid'>
-                                            <img onClick={() => { setGrid(4); }} src='images/gr4.svg' className='d-block img-fluid' alt='grid'></img>
-                                            <img onClick={() => { setGrid(3); }} src='images/gr3.svg' className='d-block img-fluid' alt='grid'></img>
-                                            <img onClick={() => { setGrid(2); }} src='images/gr2.svg' className='d-block img-fluid' alt='grid'></img>
-                                            <img onClick={() => { setGrid(1); }} src='images/gr.svg' className='d-block img-fluid' alt='grid'></img>
-                                        </div>
+                                    <div className='d-flex gap-10 align-items-center grid'>
+                                        <img onClick={() => { setGrid(3); }} src='images/gr4.svg' className='d-block img-fluid' alt='grid'></img>
+                                        <img onClick={() => { setGrid(4); }} src='images/gr3.svg' className='d-block img-fluid' alt='grid'></img>
+                                        <img onClick={() => { setGrid(6); }} src='images/gr2.svg' className='d-block img-fluid' alt='grid'></img>
+                                        <img onClick={() => { setGrid(12); }} src='images/gr.svg' className='d-block img-fluid' alt='grid'></img>
                                     </div>
                                 </div>
                             </div>
-                            <div className='products-list pb-5'>
-                                <ProductCard grid={grid}
-                                    imageSrc='images/prod6.png'
-                                    hoverImageSrc='images/prod6.png'
-                                    brand='Zara'
-                                    title='Coral Dream'
-                                    rating={4}
-                                    price={150} />
-                                <ProductCard grid={grid}
-                                    imageSrc='images/prod8.png'
-                                    hoverImageSrc='images/prod8.png'
-                                    brand='H&M'
-                                    title='Sapphire Breeze'
-                                    rating={3}
-                                    price={200} />
-                                <ProductCard grid={grid}
-                                    imageSrc='images/prod7.png'
-                                    hoverImageSrc='images/prod7.png'
-                                    brand='Guess'
-                                    title='Enchanting Emerald'
-                                    rating={5}
-                                    price={130} />
-                                <ProductCard grid={grid}
-                                    imageSrc='images/prod5.png'
-                                    hoverImageSrc='images/prod5.png'
-                                    brand='Mango'
-                                    title='Sunshine Bliss'
-                                    rating={4.5}
-                                    price={170} />
-                                <ProductCard grid={grid} />
+                            <div className='products-list'>
+                                <div className="d-flex gap-10 flex-wrap">
+                                    <ProductCard grid={grid}
+                                        imageSrc='images/prod10.png'
+                                        hoverImageSrc='images/prod10.png'
+                                        brand='Zara'
+                                        title='Coral Dream'
+                                        rating={4}
+                                        price={150} />
+                                    <ProductCard grid={grid}
+                                        imageSrc='images/prod8.png'
+                                        hoverImageSrc='images/prod8.png'
+                                        brand='H&M'
+                                        title='Sapphire Breeze'
+                                        rating={3}
+                                        price={200} />
+                                    <ProductCard grid={grid}
+                                        imageSrc='images/prod7.png'
+                                        hoverImageSrc='images/prod7.png'
+                                        brand='Guess'
+                                        title='Enchanting Emerald'
+                                        rating={5}
+                                        price={130} />
+                                </div>
+                            </div>
+                            <div className='products-list'>
+                                <div className="d-flex gap-10 flex-wrap">
+                                    <ProductCard grid={grid}
+                                        imageSrc='images/sp1.png'
+                                        hoverImageSrc='images/sp1.png'
+                                        brand='Louis Vuitton'
+                                        title='Silk Elegance'
+                                        rating={5}
+                                        price={1000} />
+                                    <ProductCard grid={grid}
+                                        imageSrc='images/sp2.png'
+                                        hoverImageSrc='images/sp2.png'
+                                        brand='Gucci'
+                                        title='Tweed Verve'
+                                        rating={4}
+                                        price={1400} />
+                                    <ProductCard grid={grid}
+                                        imageSrc='images/sp3.png'
+                                        hoverImageSrc='images/sp3.png'
+                                        brand='Chanel'
+                                        title='Luxury Chic'
+                                        rating={4}
+                                        price={1150} />
+                                </div>
+                                <div className='products-list'>
+                                    <div className="d-flex gap-10 flex-wrap">
+                                        <ProductCard grid={grid}
+                                            imageSrc='images/pop3.png'
+                                            hoverImageSrc='images/pop3.png'
+                                            brand='Levis'
+                                            title='Leather Trim'
+                                            rating={5}
+                                            price={190} />
+                                        <ProductCard grid={grid}
+                                            imageSrc='images/pop5.png'
+                                            hoverImageSrc='images/pop5.png'
+                                            brand='Guess'
+                                            title='Monogram'
+                                            rating={5}
+                                            price={160} />
+                                        <ProductCard grid={grid}
+                                            imageSrc='images/pop1.png'
+                                            hoverImageSrc='images/pop1.png'
+                                            brand='Mango'
+                                            title='Fil Coupe'
+                                            rating={5}
+                                            price={130} />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

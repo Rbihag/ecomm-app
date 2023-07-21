@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import ReactStars from 'react-rating-stars-component';
 import { Link, useLocation } from 'react-router-dom';
 
-const ProductCard = ({ imageSrc, hoverImageSrc, brand, title, rating, price }) => {
+const ProductCard = ({ imageSrc, hoverImageSrc, brand, title, rating, price, grid }) => {
+    // console.log('Grid inside ProductCard:', grid);
     const [hovered, setHovered] = useState(false);
+    let location = useLocation();
 
     const handleHover = () => {
         setHovered(true);
@@ -13,18 +15,17 @@ const ProductCard = ({ imageSrc, hoverImageSrc, brand, title, rating, price }) =
         setHovered(false);
     };
 
-    let location = useLocation();
-    console.log(location)
-
     return (
-        <div className='col-3'>
-            <Link className='product-card position-relative'>
+        <div className={` ${location.pathname === "/shop" ? `col-${grid}` : "col-3"} `}>
+            <Link
+                className='product-card position-relative'
+                onMouseEnter={handleHover}
+                onMouseLeave={handleMouseLeave}
+            >
                 <div className='product-image'>
                     <img
                         src={hovered ? hoverImageSrc : imageSrc}
                         alt='product'
-                        onMouseEnter={handleHover}
-                        onMouseLeave={handleMouseLeave}
                     />
                 </div>
                 <div className='product-details'>
@@ -54,4 +55,6 @@ const ProductCard = ({ imageSrc, hoverImageSrc, brand, title, rating, price }) =
     );
 };
 
-export default ProductCard;
+export default React.memo(ProductCard, (prevProps, nextProps) => {
+    return prevProps.grid === nextProps.grid;
+});
