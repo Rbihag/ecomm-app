@@ -43,25 +43,25 @@ const Header = () => {
                     <div className="col-5">
                         <div className="header-upper-links d-flex align-items-center justify-content-between">
                             <div>
-                                <NavLink className="d-flex align-items-center gap-10 text-dark" href='#'>
+                                <NavLink className="d-flex align-items-center gap-10 text-dark" to='compare-product'>
                                     <img src="images/compare.png" alt="compare" />
                                     <p className='mb-0'>Compare</p>
                                 </NavLink>
                             </div>
                             <div>
-                                <NavLink className="d-flex align-items-center gap-10 text-dark" href='#'>
+                                <NavLink className="d-flex align-items-center gap-10 text-dark" to='/wishlist'>
                                     <img className="pb-2" src="images/wishlist.png" alt="wishlist" />
                                     <p className='mb-0'>Wishlist</p>
                                 </NavLink>
                             </div>
                             <div>
-                                <NavLink className="d-flex align-items-center gap-10 text-dark" href='#'>
+                                <NavLink className="d-flex align-items-center gap-10 text-dark" to='/login'>
                                     <img src="images/user.png" alt="user" />
                                     <p className='mb-0'>Log In</p>
                                 </NavLink>
                             </div>
                             <div>
-                                <NavLink className="d-flex align-items-center gap-10 text-dark" href='#'>
+                                <NavLink className="d-flex align-items-center gap-10 text-dark" to='/cart'>
                                     <img src="images/cart.png" alt="cart" />
                                     <div className='d-flex flex-column gap-10'>
                                         <span className='badge bg-white text-dark'>&#8369; 0</span>

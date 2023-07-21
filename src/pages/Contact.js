@@ -5,7 +5,7 @@ import Meta from '../components/Meta.js';
 const Contact = () => {
     return (
         <>
-            <Meta title='Contact Us' />
+            <Meta title={'Contact Us'} />
             <BreadCrumb title='Contact Us' />
             <div className='contact-wrapper py-5 home-wrapper-2'>
                 <div className='container-xxl'>
