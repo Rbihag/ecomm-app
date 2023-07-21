@@ -22,7 +22,55 @@ const Contact = () => {
                                 title="Google Map - Gen. Montemayor St, Poblacion, Alaminos, Pangasinan"
                             ></iframe>
                         </div>
-
+                        <div className='col-12 mt-5'>
+                            <div className='contact-inner-wrapper d-flex justify-content-between'>
+                                <div>
+                                    <h3 className='contact-title mb-4'>Contact Us</h3>
+                                    <form action='' className='d-flex flex-column gap-15'>
+                                        <div>
+                                            <input type='text' className='form-control' placeholder='Name *'
+                                                required />
+                                        </div>
+                                        <div>
+                                            <input type='email' className='form-control' placeholder='Email *' required />
+                                        </div>
+                                        <div>
+                                            <input type='tel' className='form-control' placeholder='Mobile Number *' required />
+                                        </div>
+                                        <div>
+                                            <textarea name='' id='' cols='30' rows='5' className='w-100 form-control'
+                                                placeholder='Message *' required></textarea>
+                                        </div>
+                                        <div>
+                                            <button className='button border-0'>Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div>
+                                    <h3 className='contact-title mb-4'>Get In Touch With Us</h3>
+                                    <div>
+                                        <ul className='ps-0'>
+                                            <li className='mb-4 d-flex gap-15 align-items-center'><img className='fs-5' src='images/house.png' alt='' />
+                                                <address className='mb-0'>102 J&L Payas Bldg.,
+                                                    CP Garcia St., Poblacion,
+                                                    Alaminos City, Pangasinan,
+                                                    ZIP Code 2404, Philippines
+                                                </address>
+                                            </li>
+                                            <li className='mb-4 d-flex gap-15 align-items-center'><img className='fs-5' src='images/telephone.png' alt='' />
+                                                <a href='tel: (+63)9123-456-789'>(+63)9123-456-789</a>
+                                            </li>
+                                            <li className='mb-4 d-flex gap-15 align-items-center'><img className='fs-5' src='images/open.png' alt='' />
+                                                <a href='mailto:bihag.rudolf@gmail.com'>Email: bihag.rudolf@gmail.com</a>
+                                            </li>
+                                            <li className='mb-4 d-flex gap-15 align-items-center'><img className='fs-5' src='images/info.png' alt='' />
+                                                <p className='mb-0'>Monday - Saturday: 9:00 AM - 5:00 PM</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
