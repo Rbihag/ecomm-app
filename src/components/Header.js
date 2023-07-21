@@ -86,9 +86,8 @@ const Header = () => {
                                         <span className='me-4 d-inline-block'>Shop Categories</span>
                                     </button>
                                     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><Link className="dropdown-item text-dark" to="#">Action</Link></li>
-                                        <li><Link className="dropdown-item text-dark" to="#">Another action</Link></li>
-                                        <li><Link className="dropdown-item text-dark" to="#">Something else here</Link></li>
+                                        <li><Link className="dropdown-item text-dark" to="#">Ready-To-Wear</Link></li>
+                                        <li><Link className="dropdown-item text-dark" to="#">Handbags</Link></li>
                                     </ul>
                                 </div>
                             </div>
