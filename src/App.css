@@ -728,9 +728,11 @@ color: var(--color-1c1c1b);
   border-color: transparent;
 }
 
-.auth-card a{
+/* .auth-card a{
   font-size: 14px;
   font-weight: 400;
-}
+  color: var(--color-777777);
+} */
+
 
 /* auth card end */
