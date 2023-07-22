@@ -26,7 +26,7 @@ const Header = () => {
                 <div className="row align-items-center">
                     <div className="col-2">
                         <h1>
-                            <Link className="text-dark">Ara Ukay Alaminos</Link>
+                            <Link to='/' className="text-dark">Ara Ukay Alaminos</Link>
                         </h1>
                     </div>
                     <div className="col-5" style={{ paddingBottom: '5px' }}>
