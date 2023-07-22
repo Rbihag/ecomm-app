@@ -739,5 +739,13 @@ color: var(--color-1c1c1b);
   color: var(--color-777777);
 } */
 
-
 /* auth card end */
+
+/* policy section start */
+
+.policy{
+  background-color: white;
+  padding: 30px;
+}
+
+/* policy section end */

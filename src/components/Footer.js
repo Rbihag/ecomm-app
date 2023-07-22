@@ -47,31 +47,25 @@ const Footer = () => {
                         <div className='col-3'>
                             <h4 className='mb-4'>About</h4>
                             <div className='footer-link d-flex flex-column'>
-                                <NavLink className="text-dark py-2 mb-1">Terms Of Service</NavLink>
-                                <NavLink className="text-dark py-2 mb-1">Shipping Policy</NavLink>
-                                <NavLink className="text-dark py-2 mb-1">Privacy Policy</NavLink>
-                                <NavLink className="text-dark py-2 mb-1">Refund Policy</NavLink>
-                                <NavLink className="text-dark py-2 mb-1">Our Team</NavLink>
+                                <NavLink to='/terms-conditions' className="text-dark py-2 mb-1">Terms And Conditions</NavLink>
+                                <NavLink to='/shipping-policy' className="text-dark py-2 mb-1">Shipping Policy</NavLink>
+                                <NavLink to='/privacy-policy' className="text-dark py-2 mb-1">Privacy Policy</NavLink>
+                                <NavLink to='/refund-policy' className="text-dark py-2 mb-1">Refund Policy</NavLink>
                             </div>
                         </div>
                         <div className='col-3'>
                             <h4 className='mb-4'>Support</h4>
                             <div className='footer-link d-flex flex-column'>
                                 <NavLink className="text-dark py-2 mb-1">Your Account</NavLink>
-                                <NavLink className="text-dark py-2 mb-1">Your Orders</NavLink>
-                                <NavLink className="text-dark py-2 mb-1">Size Chart</NavLink>
-                                <NavLink className="text-dark py-2 mb-1">Search</NavLink>
+                                <NavLink className="text-dark py-2 mb-1">About Us</NavLink>
                                 <NavLink className="text-dark py-2 mb-1">FAQ</NavLink>
                             </div>
                         </div>
                         <div className='col-2'>
                             <h4 className='mb-4'>Products</h4>
                             <div className='footer-link d-flex flex-column'>
-                                <NavLink className="text-dark py-2 mb-1">Old Navy</NavLink>
-                                <NavLink className="text-dark py-2 mb-1">Guess</NavLink>
-                                <NavLink className="text-dark py-2 mb-1">H&M</NavLink>
-                                <NavLink className="text-dark py-2 mb-1">Zara</NavLink>
-                                <NavLink className="text-dark py-2 mb-1">Nike</NavLink>
+                                <NavLink className="text-dark py-2 mb-1">Ready-To-Wear</NavLink>
+                                <NavLink className="text-dark py-2 mb-1">Handbags</NavLink>
                             </div>
                         </div>
                     </div>
