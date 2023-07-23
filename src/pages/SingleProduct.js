@@ -7,7 +7,7 @@ import { useState } from 'react';
 import ReactImageZoom from 'react-image-zoom';
 
 const SingleProduct = () => {
-    const props = { width: 600, height: 500, zoomWidth: 500, img: "https://res.cloudinary.com/dycuomdir/image/upload/v1690101722/sp4_fbt5os.png" };
+    const props = { width: 600, height: 500, zoomWidth: 500, img: "https://res.cloudinary.com/dycuomdir/image/upload/v1690101722/sp4_fbt5os.png" }; // Ensure this URL is correct and the image exists at this URL
 
     const [orderedProduct,] = useState(true);
     return (
@@ -24,10 +24,10 @@ const SingleProduct = () => {
                                 </div>
                             </div>
                             <div className='other-product-images d-flex flex-wrap gap-15'>
-                                <div><img src='https://res.cloudinary.com/dycuomdir/image/upload/v1690101722/sp3_vmjyl1.png' className='img-fluid' alt='' /></div>
-                                <div><img src='https://res.cloudinary.com/dycuomdir/image/upload/v1690101722/sp1_q80yit.png' className='img-fluid' alt='' /></div>
-                                <div><img src='https://res.cloudinary.com/dycuomdir/image/upload/v1690101723/sp2_izpc0c.png' className='img-fluid' alt='' /></div>
-                                <div><img src='https://res.cloudinary.com/dycuomdir/image/upload/v1690101746/sp5_koeptk.png' className='img-fluid' alt='' /></div>
+                                <div><img src='https://res.cloudinary.com/dycuomdir/image/upload/v1690101722/sp3_vmjyl1.png' className='img-fluid' alt='' /></div> // Ensure this URL is correct and the image exists at this URL
+                                <div><img src='https://res.cloudinary.com/dycuomdir/image/upload/v1690101722/sp1_q80yit.png' className='img-fluid' alt='' /></div> // Ensure this URL is correct and the image exists at this URL
+                                <div><img src='https://res.cloudinary.com/dycuomdir/image/upload/v1690101723/sp2_izpc0c.png' className='img-fluid' alt='' /></div> // Ensure this URL is correct and the image exists at this URL
+                                <div><img src='https://res.cloudinary.com/dycuomdir/image/upload/v1690101746/sp5_koeptk.png' className='img-fluid' alt='' /></div> // Ensure this URL is correct and the image exists at this URL
                             </div>
                         </div>
                         <div className='col-6'>
@@ -114,32 +114,32 @@ const SingleProduct = () => {
                     </div>
                     <div className='row'>
                         <ProductCard
-                            imageSrc='images/pop1.png'
-                            hoverImageSrc='images/pop2.png'
+                            imageSrc='images/pop1.png' // Ensure this path is correct and the image exists at this path
+                            hoverImageSrc='images/pop2.png' // Ensure this path is correct and the image exists at this path
                             brand='Mango'
                             title='Fil Coupe'
                             rating='4'
                             price='130'
                         />
                         <ProductCard
-                            imageSrc='images/pop5.png'
-                            hoverImageSrc='images/pop6.png'
+                            imageSrc='images/pop5.png' // Ensure this path is correct and the image exists at this path
+                            hoverImageSrc='images/pop6.png' // Ensure this path is correct and the image exists at this path
                             brand='Guess'
                             title='Monogram'
                             rating='3'
                             price='160'
                         />
                         <ProductCard
-                            imageSrc='images/pop7.png'
-                            hoverImageSrc='images/pop8.png'
+                            imageSrc='images/pop7.png' // Ensure this path is correct and the image exists at this path
+                            hoverImageSrc='images/pop8.png' // Ensure this path is correct and the image exists at this path
                             brand='Old Navy'
                             title='Pen Mesh'
                             rating='5'
                             price='150'
                         />
                         <ProductCard
-                            imageSrc='images/pop3.png'
-                            hoverImageSrc='images/pop4.png'
+                            imageSrc='images/pop3.png' // Ensure this path is correct and the image exists at this path
+                            hoverImageSrc='images/pop4.png' // Ensure this path is correct and the image exists at this path
                             brand='Levis'
                             title='Leather Trim'
                             rating='4.5'
