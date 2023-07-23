@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ReactStars from 'react-rating-stars-component';
 import { Link, useLocation } from 'react-router-dom';
 
+
 const ProductCard = ({ imageSrc, hoverImageSrc, brand, title, rating, price, grid }) => {
     // console.log('Grid inside ProductCard:', grid);
     const [hovered, setHovered] = useState(false);
@@ -17,7 +18,7 @@ const ProductCard = ({ imageSrc, hoverImageSrc, brand, title, rating, price, gri
 
     return (
         <div className={` ${location.pathname === "/shop" ? `col-${grid}` : "col-3"} `}>
-            <Link
+            <Link to='product/:id'
                 className='product-card position-relative'
                 onMouseEnter={handleHover}
                 onMouseLeave={handleMouseLeave}
