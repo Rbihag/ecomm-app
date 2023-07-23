@@ -4,8 +4,11 @@ import Meta from '../components/Meta.js';
 import ProductCard from '../components/ProductCard.js';
 import ReactStars from 'react-rating-stars-component';
 import { useState } from 'react';
+import ReactImageZoom from 'react-image-zoom';
 
 const SingleProduct = () => {
+    const props = { width: 600, height: 500, zoomWidth: 500, img: "https://res.cloudinary.com/dycuomdir/image/upload/v1690101722/sp4_fbt5os.png" };
+
     const [orderedProduct,] = useState(true);
     return (
         <>
@@ -14,8 +17,22 @@ const SingleProduct = () => {
             <div className='main-product-wrapper py-5 home-wrapper-2'>
                 <div className='container-xxl'>
                     <div className='row'>
-                        <div className='col-6'></div>
-                        <div className='col-6'></div>
+                        <div className='col-6'>
+                            <div className='main-product-image'>
+                                <div>
+                                    <ReactImageZoom {...props} />
+                                </div>
+                            </div>
+                            <div className='other-product-images d-flex flex-wrap gap-15'>
+                                <div><img src='https://res.cloudinary.com/dycuomdir/image/upload/v1690101722/sp3_vmjyl1.png' className='img-fluid' alt='' /></div>
+                                <div><img src='https://res.cloudinary.com/dycuomdir/image/upload/v1690101722/sp1_q80yit.png' className='img-fluid' alt='' /></div>
+                                <div><img src='https://res.cloudinary.com/dycuomdir/image/upload/v1690101723/sp2_izpc0c.png' className='img-fluid' alt='' /></div>
+                                <div><img src='https://res.cloudinary.com/dycuomdir/image/upload/v1690101746/sp5_koeptk.png' className='img-fluid' alt='' /></div>
+                            </div>
+                        </div>
+                        <div className='col-6'>
+
+                        </div>
                     </div>
                 </div>
             </div>
