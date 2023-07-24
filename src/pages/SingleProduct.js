@@ -6,12 +6,25 @@ import ReactStars from 'react-rating-stars-component';
 import { useState } from 'react';
 import ReactImageZoom from 'react-image-zoom';
 import Color from '../components/Color.js';
+import { MdCompareArrows } from 'react-icons/md';
+import { AiOutlineHeart } from 'react-icons/ai';
 
 
 const SingleProduct = () => {
     const props = { width: 600, height: 500, zoomWidth: 600, img: "https://res.cloudinary.com/dycuomdir/image/upload/v1690101722/sp4_fbt5os.png" };
 
     const [orderedProduct,] = useState(true);
+
+    const copyToClipboard = (text) => {
+        console.log('text', text)
+        var textField = document.createElement('textarea')
+        textField.innerText = text
+        document.body.appendChild(textField)
+        textField.select()
+        document.execCommand('copy')
+        textField.remove()
+    }
+
     return (
         <>
             <Meta title={'Product'} />
@@ -85,7 +98,21 @@ const SingleProduct = () => {
                                             <button className='button signup'>BUY</button>
                                         </div>
                                     </div>
-                                    <div></div>
+                                    <div className='d-flex align-items-center gap-15'>
+                                        <div>
+                                            <a href='/compare-product'><MdCompareArrows className='fs-4 me-2' /> Compare Items</a>
+                                        </div>
+                                        <div>
+                                            <a href='/wishlist'><AiOutlineHeart className='fs-4 me-2' /> Add to Wishlist</a>
+                                        </div>
+                                    </div>
+                                    <div className='d-flex gap-10 flex-column my-3'>
+                                        <h3 className='product-heading'>Shipping & Returns:</h3> <p className='product-data'>Easy returns and hassle-free shipping: Shop with confidence knowing that we've got you covered with our customer-friendly shipping and return policy.</p>
+                                    </div>
+                                    <div className='d-flex gap-10 align-items-center my-3'>
+                                        <h3 className='product-heading'>Product Link:</h3>
+                                        <a href='javascript:void(0);' onClick={() => { copyToClipboard("https://res.cloudinary.com/dycuomdir/image/upload/v1690101722/sp4_fbt5os.png") }}>Click Here</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
