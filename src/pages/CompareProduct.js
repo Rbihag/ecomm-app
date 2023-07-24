@@ -54,20 +54,20 @@ function CompareProduct() {
                             <div className='compare-product-card position-relative'>
                                 <img src='images/cross.svg' alt='cross' className='position-absolute cross img-fluid' />
                                 <div className='product-card-image'>
-                                    <img src='images/pop1.png' alt='dress' />
+                                    <img src='images/sprod12.png' alt='dress' />
                                 </div>
                                 <div className='compare-product-details'>
-                                    <h5 className='title'>Fil Coupe</h5>
-                                    <h6 className='price mb-3 mt-3'>&#8369; 130</h6>
+                                    <h5 className='title'>Alma BB</h5>
+                                    <h6 className='price mb-3 mt-3'>&#8369; 2,370</h6>
 
                                     <div>
                                         <div className='product-detail'>
                                             <h5>Brand:</h5>
-                                            <p>Mango</p>
+                                            <p>Louis Vuitton</p>
                                         </div>
                                         <div className='product-detail'>
                                             <h5>Type:</h5>
-                                            <p>Ready-To-Wear</p>
+                                            <p>Handbag</p>
                                         </div>
                                         <div className='product-detail'>
                                             <h5>Availability:</h5>
@@ -80,9 +80,7 @@ function CompareProduct() {
                                         <div className='product-detail'>
                                             <h5>Size:</h5>
                                             <div className='d-flex gap-10'>
-                                                <p className='mb-2'>Small</p>
-                                                <p className='mb-2'>Medium</p>
-                                                <p className='mb-2'>Large</p>
+                                                <p className='mb-2'>L:12.6 x H:9.1 x W:5.1 Inches</p>
                                             </div>
                                         </div>
                                     </div>
@@ -136,7 +134,7 @@ function CompareProduct() {
                                 </div>
                                 <div className='compare-product-details'>
                                     <h5 className='title'>Summer</h5>
-                                    <h6 className='price mb-3 mt-3'>&#8369; 2350</h6>
+                                    <h6 className='price mb-3 mt-3'>&#8369; 2,350</h6>
 
                                     <div>
                                         <div className='product-detail'>

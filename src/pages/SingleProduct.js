@@ -96,7 +96,7 @@ const SingleProduct = () => {
                                         </div>
                                         <div className='d-flex align-items-center gap-30 ms-5'>
                                             <Link to='/cart' ><button className='button border-0' type='submit'>Add To Cart</button></Link>
-                                            <button className='button signup'>BUY</button>
+                                            <Link to='/checkout'><button className='button signup'>BUY</button></Link>
                                         </div>
                                     </div>
                                     <div className='d-flex align-items-center gap-15'>

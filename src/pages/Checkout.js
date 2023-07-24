@@ -12,7 +12,7 @@ const Checkout = () => {
                                 <nav style={{ "--bs-breadcrumb-divider": "'>'" }} aria-label="breadcrumb">
                                     <ol className="breadcrumb">
                                         <li className="breadcrumb-item"><a href="/">Home</a></li>
-                                        <li className="breadcrumb-item active" aria-current="page">Cart</li>
+                                        <li className="breadcrumb-item active" aria-current="page">Checkout</li>
                                     </ol>
                                 </nav>
                                 <h4 className='title'>

@@ -37,16 +37,16 @@ const ProductCard = ({ imageSrc, hoverImageSrc, brand, title, rating, price, gri
                 </div>
                 <div className='action-bar position-absolute'>
                     <div className='d-flex flex-column gap-15'>
-                        <Link>
+                        <Link to='/wishlist'>
                             <img src='images/wish.svg' alt='wishlist' />
                         </Link>
-                        <Link>
+                        <Link to='/compare-product'>
                             <img src='images/prodcompare.svg' alt='compare' />
                         </Link>
-                        <Link>
+                        <Link to='/product'>
                             <img src='images/view.svg' alt='view' />
                         </Link>
-                        <Link>
+                        <Link to='/cart'>
                             <img src='images/add-cart.svg' alt='addcart' />
                         </Link>
                     </div>
