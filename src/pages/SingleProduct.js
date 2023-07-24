@@ -8,6 +8,7 @@ import ReactImageZoom from 'react-image-zoom';
 import Color from '../components/Color.js';
 import { MdCompareArrows } from 'react-icons/md';
 import { AiOutlineHeart } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 
 const SingleProduct = () => {
@@ -94,7 +95,7 @@ const SingleProduct = () => {
                                             />
                                         </div>
                                         <div className='d-flex align-items-center gap-30 ms-5'>
-                                            <button className='button border-0' type='submit'>Add To Cart</button>
+                                            <Link to='/cart' ><button className='button border-0' type='submit'>Add To Cart</button></Link>
                                             <button className='button signup'>BUY</button>
                                         </div>
                                     </div>
