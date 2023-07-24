@@ -21,25 +21,19 @@ const Home = () => {
                                 </div>
                                 <div className="carousel-inner">
                                     <div className="carousel-item active" data-bs-interval="10000">
-                                        <img src="images/mainbanner.jpg" className="d-block w-100 img-fluid" alt="..." />
+                                        <img src="images/mainbanner1.png" className="d-block w-100 img-fluid" alt="..." />
                                         <div className="carousel-caption d-none d-md-block">
-                                            <Link className='button'>BUY NOW</Link>
+                                            <Link to='/shop' className='button'>BUY NOW</Link>
                                         </div>
                                     </div>
                                     <div className="carousel-item" data-bs-interval="2000">
-                                        <img src="images/catbanner-01.jpg" className="d-block w-100 img-fluid" alt="..." />
+                                        <img src="images/mainbanner2.png" className="d-block w-100 img-fluid" alt="banner" />
                                         <div className="carousel-caption d-none d-md-block">
-                                            {/* INSERT HERE */}
-                                            <h5>TO DO</h5>
-                                            <p>TO DO</p>
                                         </div>
                                     </div>
                                     <div className="carousel-item">
-                                        <img src="images/catbanner-03.jpg" className="d-block w-100 img-fluid" alt="..." />
+                                        <img src="images/mainbanner.jpg" className="d-block w-100 img-fluid" alt="banner" />
                                         <div className="carousel-caption d-none d-md-block">
-                                            {/* INSERT HERE */}
-                                            <h5>TO DO</h5>
-                                            <p>TO DO</p>
                                         </div>
                                     </div>
                                 </div>

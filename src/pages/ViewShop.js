@@ -162,12 +162,12 @@ const ViewShop = () => {
                             <div className='products-list'>
                                 <div className="d-flex flex-wrap">
                                     <ProductCard grid={grid}
-                                        imageSrc='images/prod10.png'
-                                        hoverImageSrc='images/prod10.png'
-                                        brand='Zara'
-                                        title='Summer Dew'
+                                        imageSrc='images/sprod1.png'
+                                        hoverImageSrc='images/sprod1.png'
+                                        brand='Louis Vuitton'
+                                        title='Alma BB'
                                         rating={4}
-                                        price={150} />
+                                        price={2370} />
                                     <ProductCard grid={grid}
                                         imageSrc='images/prod8.png'
                                         hoverImageSrc='images/prod8.png'

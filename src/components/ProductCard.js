@@ -18,7 +18,7 @@ const ProductCard = ({ imageSrc, hoverImageSrc, brand, title, rating, price, gri
 
     return (
         <div className={` ${location.pathname === "/shop" ? `col-${grid}` : "col-3"} `}>
-            <Link to='product/:id'
+            <Link to='/product'
                 className='product-card position-relative'
                 onMouseEnter={handleHover}
                 onMouseLeave={handleMouseLeave}
