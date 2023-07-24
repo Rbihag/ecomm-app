@@ -27,7 +27,7 @@ function Wishlist() {
                             <div className='wishlist-card position-relative'>
                                 <img src='images/cross.svg' alt='cross' className='position-absolute cross img-fluid' />
                                 <div className='wishlist-card-image'>
-                                    <img src='images/f1w.png' className='img-fluid w-100' alt='dress' />
+                                    <img src='images/sprod1.png' className='img-fluid w-100' alt='dress' />
                                 </div>
                                 <div className='py-3 px-3'>
                                     <h5 className='title'>Alma BB</h5>
