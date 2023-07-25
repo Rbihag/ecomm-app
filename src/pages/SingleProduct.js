@@ -101,10 +101,10 @@ const SingleProduct = () => {
                                 </div>
                                 <div className='d-flex align-items-center gap-15'>
                                     <div>
-                                        <a href='/compare-product'><MdCompareArrows className='fs-4 me-2' /> Compare Items</a>
+                                        <Link to='/compare-product'><MdCompareArrows className='fs-4 me-2' /> Compare Items</Link>
                                     </div>
                                     <div>
-                                        <a href='/wishlist'><AiOutlineHeart className='fs-4 me-2' /> Add to Wishlist</a>
+                                        <Link to='/wishlist'><AiOutlineHeart className='fs-4 me-2' /> Add to Wishlist</Link>
                                     </div>
                                 </div>
                                 <div className='d-flex gap-10 flex-column my-3'>
