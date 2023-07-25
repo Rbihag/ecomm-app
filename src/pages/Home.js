@@ -4,85 +4,85 @@ import Marquee from "react-fast-marquee";
 import BlogCard from '../components/BlogCard.js';
 import ProductCard from '../components/ProductCard.js';
 import SpecialProduct from '../components/SpecialProduct.js';
+import Container from '../components/Container.js';
 
 const Home = () => {
     return (
         <>
-            {/* TO DO MAIN BANNER IMAGES LINE 32,40 */}
-            <section className='home-wrapper-1 py-5'>
-                <div className='container-xxl' >
-                    <div className='row'>
-                        <div className='col-6'>
-                            <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
-                                <div className="carousel-indicators">
-                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                </div>
-                                <div className="carousel-inner">
-                                    <div className="carousel-item active" data-bs-interval="10000">
-                                        <img src="images/mainbanner1.png" className="d-block w-100 img-fluid" alt="..." />
-                                        <div className="carousel-caption d-none d-md-block">
-                                            <Link to='/shop' className='button'>BUY NOW</Link>
-                                        </div>
-                                    </div>
-                                    <div className="carousel-item" data-bs-interval="2000">
-                                        <img src="images/mainbanner2.png" className="d-block w-100 img-fluid" alt="banner" />
-                                        <div className="carousel-caption d-none d-md-block">
-                                        </div>
-                                    </div>
-                                    <div className="carousel-item">
-                                        <img src="images/mainbanner.jpg" className="d-block w-100 img-fluid" alt="banner" />
-                                        <div className="carousel-caption d-none d-md-block">
-                                        </div>
-                                    </div>
-                                </div>
-                                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span className="visually-hidden">Previous</span>
-                                </button>
-                                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span className="visually-hidden">Next</span>
-                                </button>
+            <Container class1='home-wrapper-1 py-5'>
+                <div className='row'>
+                    <div className='col-6'>
+                        <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div className="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                             </div>
+                            <div className="carousel-inner">
+                                <div className="carousel-item active" data-bs-interval="10000">
+                                    <img src="images/mainbanner1.png" className="d-block w-100 img-fluid" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block">
+                                        <Link to='/shop' className='button'>BUY NOW</Link>
+                                    </div>
+                                </div>
+                                <div className="carousel-item" data-bs-interval="2000">
+                                    <img src="images/mainbanner2.png" className="d-block w-100 img-fluid" alt="banner" />
+                                    <div className="carousel-caption d-none d-md-block">
+                                    </div>
+                                </div>
+                                <div className="carousel-item">
+                                    <img src="images/mainbanner.jpg" className="d-block w-100 img-fluid" alt="banner" />
+                                    <div className="carousel-caption d-none d-md-block">
+                                    </div>
+                                </div>
+                            </div>
+                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Previous</span>
+                            </button>
+                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Next</span>
+                            </button>
                         </div>
+                    </div>
 
-                        <div className='col-6'>
-                            <div className='d-flex flex-wrap gap-10 justify-content-between align-items-center'>
-                                <div className='small-banner position-relative'>
-                                    {/* banner image */}
-                                    <img src='images/catbanner-01.jpg' className='img-fluid rounded-3' alt='small banner' />
-                                    {/* small banner content */}
-                                    {/* <div className='small-banner-content position-absolute '>
+                    <div className='col-6'>
+                        <div className='d-flex flex-wrap gap-10 justify-content-between align-items-center'>
+                            <div className='small-banner position-relative'>
+                                {/* banner image */}
+                                <img src='images/catbanner-01.jpg' className='img-fluid rounded-3' alt='small banner' />
+                                {/* small banner content */}
+                                {/* <div className='small-banner-content position-absolute '>
                                     </div> */}
-                                </div>
-                                <div className='small-banner position-relative'>
-                                    {/* banner image */}
-                                    <img src='images/catbanner-03.jpg' className='img-fluid rounded-3' alt='small banner' />
-                                    {/* small banner content */}
-                                    {/* <div className='small-banner-content position-absolute '>
+                            </div>
+                            <div className='small-banner position-relative'>
+                                {/* banner image */}
+                                <img src='images/catbanner-03.jpg' className='img-fluid rounded-3' alt='small banner' />
+                                {/* small banner content */}
+                                {/* <div className='small-banner-content position-absolute '>
                                     </div> */}
-                                </div>
-                                <div className='small-banner position-relative'>
-                                    {/* banner image */}
-                                    <img src='images/catbanner-04.jpg' className='img-fluid rounded-3' alt='small banner' />
-                                    {/* small banner content */}
-                                    {/* <div className='small-banner-content position-absolute '>
+                            </div>
+                            <div className='small-banner position-relative'>
+                                {/* banner image */}
+                                <img src='images/catbanner-04.jpg' className='img-fluid rounded-3' alt='small banner' />
+                                {/* small banner content */}
+                                {/* <div className='small-banner-content position-absolute '>
                                     </div> */}
-                                </div>
-                                <div className='small-banner position-relative'>
-                                    {/* banner image */}
-                                    <img src='images/catbanner-02.jpg' className='img-fluid rounded-3' alt='small banner' />
-                                    {/* small banner content */}
-                                    {/* <div className='small-banner-content position-absolute '>
+                            </div>
+                            <div className='small-banner position-relative'>
+                                {/* banner image */}
+                                <img src='images/catbanner-02.jpg' className='img-fluid rounded-3' alt='small banner' />
+                                {/* small banner content */}
+                                {/* <div className='small-banner-content position-absolute '>
                                     </div> */}
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </Container>
+            {/* TO DO MAIN BANNER IMAGES LINE 32,40 */}
+
             <section className='home-wrapper-2 py-5'>
                 <div className='container-xxl'>
                     <div className='row'>

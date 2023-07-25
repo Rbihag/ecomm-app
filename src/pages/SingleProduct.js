@@ -112,7 +112,8 @@ const SingleProduct = () => {
                                     </div>
                                     <div className='d-flex gap-10 align-items-center my-3'>
                                         <h3 className='product-heading'>Product Link:</h3>
-                                        <a href='javascript:void(0);' onClick={() => { copyToClipboard("https://res.cloudinary.com/dycuomdir/image/upload/v1690101722/sp4_fbt5os.png") }}>Click Here</a>
+                                        <a href='https://res.cloudinary.com/dycuomdir/image/upload/v1690101722/sp4_fbt5os.png' target='_blank' rel='noreferrer' onClick={() => { copyToClipboard("https://res.cloudinary.com/dycuomdir/image/upload/v1690101722/sp4_fbt5os.png") }}>Click Here</a>
+
                                     </div>
                                 </div>
                             </div>
