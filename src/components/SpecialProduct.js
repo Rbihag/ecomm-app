@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactStars from 'react-rating-stars-component';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 const SpecialProduct = ({ imageSrc, hoverImageSrc1, brand, title, rating, price, discountDays, progress, productCount }) => {
     const [hovered, setHovered] = useState(false);
@@ -15,7 +15,7 @@ const SpecialProduct = ({ imageSrc, hoverImageSrc1, brand, title, rating, price,
 
     return (
         <div className='col-6 mb-3'>
-            <Link className='special-product-card'>
+            <NavLink className='special-product-card'>
                 <div className='d-flex justify-content-between'>
                     <div>
                         <img
@@ -56,10 +56,10 @@ const SpecialProduct = ({ imageSrc, hoverImageSrc1, brand, title, rating, price,
                                 ></div>
                             </div>
                         </div>
-                        <Link className='button'>Add To Cart</Link>
+                        <Link to='/cart' className='button'>Add To Cart</Link>
                     </div>
                 </div>
-            </Link>
+            </NavLink>
         </div>
     );
 };

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactStars from 'react-rating-stars-component';
-import { Link, useLocation } from 'react-router-dom';
+import { NavLink, Link, useLocation } from 'react-router-dom';
 
 
 const ProductCard = ({ imageSrc, hoverImageSrc, brand, title, rating, price, grid }) => {
@@ -18,7 +18,7 @@ const ProductCard = ({ imageSrc, hoverImageSrc, brand, title, rating, price, gri
 
     return (
         <div className={` ${location.pathname === "/shop" ? `col-${grid}` : "col-3"} `}>
-            <Link to='/product'
+            <NavLink to='/product'
                 className='product-card position-relative'
                 onMouseEnter={handleHover}
                 onMouseLeave={handleMouseLeave}
@@ -51,7 +51,7 @@ const ProductCard = ({ imageSrc, hoverImageSrc, brand, title, rating, price, gri
                         </Link>
                     </div>
                 </div>
-            </Link>
+            </NavLink>
         </div>
     );
 };
