@@ -3,6 +3,7 @@ import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
 import { Link } from 'react-router-dom'
 import Container from '../components/Container.js'
+import CustomInput from '../components/CustomInput.js'
 
 const Resetpassword = () => {
     return (
@@ -15,26 +16,19 @@ const Resetpassword = () => {
                         <div className='auth-card'>
                             <h3 className='text-center mb-3'>Reset Password</h3>
                             <form action='' className='d-flex flex-column gap-30'>
+                                <CustomInput
+                                    type='password'
+                                    name='password'
+                                    placeholder='Type New Password'
+                                    required
+                                />
+                                <CustomInput
+                                    type='password'
+                                    name='confpassword'
+                                    placeholder='Confirm New Password'
+                                    required
+                                />
                                 <div>
-                                    <input
-                                        type='password'
-                                        name='password'
-                                        placeholder='Type New Password'
-                                        className='form-control'
-                                        required
-                                    />
-                                </div>
-                                <div className='mt-1'>
-                                    <input
-                                        type='password'
-                                        name='confpassword'
-                                        placeholder='Confirm New Password'
-                                        className='form-control'
-                                        required
-                                    />
-                                </div>
-                                <div>
-
                                     <div className='mt-3 d-flex justify-content-center flex-column gap-15 align-items-center'>
                                         <button className='button border-0' type='submit'>Submit</button>
                                         <Link to='/login'>Cancel</Link>
