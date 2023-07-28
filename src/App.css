@@ -938,3 +938,8 @@ margin-bottom: 10px;
 
 
 /* checkout page end*/
+
+.error {
+  color: red;
+  font-size: 12px;
+}
