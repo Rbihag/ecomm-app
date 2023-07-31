@@ -1,13 +1,14 @@
 import React from 'react'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Container from '../components/Container.js'
 import CustomInput from '../components/CustomInput.js'
 import { useFormik } from 'formik';
 import * as yup from 'yup';
 import { useDispatch } from 'react-redux';
 import { registerUser } from '../features/user/userSlice.js'
+
 
 
 
@@ -23,6 +24,7 @@ const signUpSchema = yup.object({
 const Signup = () => {
 
     const dispatch = useDispatch();
+    const navigate = useNavigate();
     const formik = useFormik({
         initialValues: {
             firstName: '',
@@ -32,8 +34,9 @@ const Signup = () => {
             password: '',
         },
         validationSchema: signUpSchema,
-        onSubmit: values => {
-            dispatch(registerUser(values));
+        onSubmit: async (values) => {
+            await dispatch(registerUser(values));
+            navigate('/login');
         },
     });
 
